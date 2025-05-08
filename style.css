@@ -1,0 +1,39 @@
+:root {
+  --background-color: beige;
+  --border-color: #472222;
+  --header-background-color: #d1bebe;
+  --row-background-color: #e8d8d8;
+  --hover-background-color: #afa4a4;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+}
+
+.data-table {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  font-size: medium;
+  text-align: center;
+}
+
+.data-table th,
+.data-table td {
+  border: 2px solid var(--border-color);
+  padding: 15px;
+}
+
+.data-table th {
+  background-color: var(--header-background-color);
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+.data-table tr:hover {
+  background-color: var(--hover-background-color);
+}
