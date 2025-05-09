@@ -50,7 +50,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .data-table {
     font-size: small;
     overflow-x: auto;
